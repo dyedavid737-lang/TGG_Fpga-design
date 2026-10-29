@@ -1,0 +1,367 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sun Oct 25 17:00:41 2026
+| Host         : LAPTOP-BBD running 64-bit major release  (build 9200)
+| Command      : report_drc -file tgg_design_wrapper_drc_routed.rpt -pb tgg_design_wrapper_drc_routed.pb -rpx tgg_design_wrapper_drc_routed.rpx
+| Design       : tgg_design_wrapper
+| Device       : xc7z020clg400-2
+| Speed File   : -2
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 65
++-----------+----------+----------------------------+--------+
+| Rule      | Severity | Description                | Checks |
++-----------+----------+----------------------------+--------+
+| BUFC-1    | Warning  | Input Buffer Connections   | 21     |
+| CHECK-3   | Warning  | Report rule limit reached  | 2      |
+| IOSR-1    | Warning  | IOB set reset sharing      | 2      |
+| REQP-1839 | Warning  | RAMB36 async control check | 20     |
+| REQP-1840 | Warning  | RAMB18 async control check | 20     |
++-----------+----------+----------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+BUFC-1#1 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[0].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[0].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#2 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[10].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[10].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#3 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[11].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[11].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#4 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[12].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[12].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#5 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[13].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[13].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#6 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[14].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[14].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#7 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[16].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[16].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#8 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[17].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[17].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#9 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[18].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[18].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#10 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[19].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[19].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#11 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[1].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[1].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#12 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[20].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[20].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#13 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[21].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[21].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#14 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[22].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[22].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#15 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[2].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[2].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#16 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[3].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[3].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#17 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[4].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[4].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#18 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[5].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[5].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#19 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[6].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[6].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#20 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[8].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[8].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+BUFC-1#21 Warning
+Input Buffer Connections  
+Input buffer tgg_design_i/tgg_lcd_0/inst/rgb_io[9].io/IBUF (in tgg_design_i/tgg_lcd_0/inst/rgb_io[9].io macro) has no loads. It is recommended to have an input buffer drive an internal load.
+Related violations: <none>
+
+CHECK-3#1 Warning
+Report rule limit reached  
+REQP-1839 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+CHECK-3#2 Warning
+Report rule limit reached  
+REQP-1840 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+IOSR-1#1 Warning
+IOB set reset sharing  
+IO lcd_rgb[23] connects to flops which have these tgg_design_i/tgg_lcd_0/inst/clear
+tgg_design_i/tgg_lcd_0/inst/panel_meta[2]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+Related violations: <none>
+
+IOSR-1#2 Warning
+IOB set reset sharing  
+IO lcd_rgb[7] connects to flops which have these tgg_design_i/tgg_lcd_0/inst/clear
+tgg_design_i/tgg_lcd_0/inst/panel_meta[2]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[12] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[6]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[12] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[6]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#3 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[12] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[6]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#4 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[12] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[6]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#5 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/panel_sync_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#6 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/panel_sync_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#7 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/panel_sync_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#8 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#9 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#10 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[11]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#11 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#12 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#13 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#14 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#15 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#16 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#17 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#18 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#19 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[13] (net: tgg_design_i/tgg_lcd_0/inst/ui_y[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/vcount_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#20 Warning
+RAMB36 async control check  
+The RAMB36E1 tgg_design_i/tgg_lcd_0/inst/chars_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/chars_reg/ADDRBWRADDR[14] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[8]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/front_pix_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#1 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[10] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[6]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#2 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[10] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[6]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#3 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[10] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[6]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#4 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[10] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[6]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#5 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#6 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#7 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[11]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#8 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#9 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#10 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#11 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#12 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#13 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#14 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#15 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#16 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/hcount_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#17 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/panel_sync_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#18 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/panel_sync_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#19 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[11] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[7]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/panel_sync_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#20 Warning
+RAMB18 async control check  
+The RAMB18E1 tgg_design_i/tgg_lcd_0/inst/spectrum_reg has an input control pin tgg_design_i/tgg_lcd_0/inst/spectrum_reg/ADDRBWRADDR[12] (net: tgg_design_i/tgg_lcd_0/inst/p_3_in[8]) which is driven by a register (tgg_design_i/tgg_lcd_0/inst/front_pix_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+

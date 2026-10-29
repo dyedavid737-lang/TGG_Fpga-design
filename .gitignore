@@ -1,0 +1,8 @@
+# Reproducible local caches and sessions
+**/.Xil/
+**/*.cache/
+**/__pycache__/
+*.pyc
+*.pyo
+**/vivado.log
+**/vivado.jou

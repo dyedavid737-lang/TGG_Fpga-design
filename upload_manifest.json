@@ -1,0 +1,1357 @@
+{
+  "prepared_at_utc": "2026-10-28T05:18:06.406771+00:00",
+  "repository": "dyedavid737-lang/TGG_Fpga-design",
+  "main_project": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.xpr",
+  "files": [
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/cdc.rpt",
+      "bytes": 2344,
+      "sha256": "857e3ca835d338bfc7c62f12e5963629bd07e339e061eea756af4764c9f3b621"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/dfx_runtime.txt",
+      "bytes": 114,
+      "sha256": "b548a1d440e23e4ee99518b43ce6650192beaf3a22480d95a7f8533eb7ebb00b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/drc.rpt",
+      "bytes": 36552,
+      "sha256": "430883b69a68f0676d78b1e740162239790a0f2432037787177054388d399f57"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/pin_assignment.rpt",
+      "bytes": 125096,
+      "sha256": "c45ee366bbe6725b1ae84e9be9a6a619843529d10728d4e2efec1c909ee79eb7"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/ps7_ddr_effective_config.tcl",
+      "bytes": 9198,
+      "sha256": "eb9d56c08ee845c3b66ab99ea8a92148a7a1f45f0aa8354b5ca25e49068e2763"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/ps7_init.c",
+      "bytes": 335957,
+      "sha256": "32a246102f685d26a53e6b2f2896a4348e9786de586f1db61a00612842539df8"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/ps7_init.h",
+      "bytes": 3793,
+      "sha256": "665cec86b145559cff055d51ee740b6fc860aa9337ad09ca7f259da9e35deeff"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/ps7_init.html",
+      "bytes": 1940567,
+      "sha256": "87be40e934fc852c4881cd0c8a43b483469f261818aca2b50f5fecaf2c55c369"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/ps7_init.tcl",
+      "bytes": 26573,
+      "sha256": "7efae1b98d3e106a5b9c24813aec02f40194a5384fa82d2765dbf76c50f6f0ea"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/ps7_init_gpl.c",
+      "bytes": 336574,
+      "sha256": "91f81d5273dfe18d73355c321ed02b3c636b3ffa65d73f3facdd969ee5de0a89"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/ps7_init_gpl.h",
+      "bytes": 4411,
+      "sha256": "034779d35b0a982c3a4a5b4f443f193e7fef1bf4a549a433375afae19c516685"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_design_recreate.tcl",
+      "bytes": 20377,
+      "sha256": "f9e7b2b55127dbe8f64c1c182af40bafec5060721ae91e25ddea78bcd14b720f"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.bit",
+      "bytes": 4045694,
+      "sha256": "190669f3e140285e7183ae5e7012f8238f2bd9ee3e68a063b756ef90889fcabd"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/mref/tgg_lcd_axi/component.xml",
+      "bytes": 41409,
+      "sha256": "1d876d2d561024ff9f75799bfba4dc797630184f05911722b7b7fee8c502f514"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/mref/tgg_lcd_axi/xgui/tgg_lcd_axi_v1_0.tcl",
+      "bytes": 7339,
+      "sha256": "e2d25224e00cb85ee8e59b0cab4764f9f392561eeda1a51a28e5e467dda0dcb3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/mref/tgg_lcd_clock/component.xml",
+      "bytes": 10418,
+      "sha256": "59b064420c4aa0310c44fb7944ad807a59a606939dbc47343e221a15a908bce0"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/mref/tgg_lcd_clock/xgui/tgg_lcd_clock_v1_0.tcl",
+      "bytes": 205,
+      "sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/mref/tgg_system_top/component.xml",
+      "bytes": 29685,
+      "sha256": "b05167443418db44edd28d99bccc7a48e8d285a3283cc107a3e99bf9d9b64c6f"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/mref/tgg_system_top/xgui/tgg_system_top_v1_0.tcl",
+      "bytes": 2622,
+      "sha256": "a35ecbc5926d1cfe5359bfe6e42f87698c259ef6ce31557b87790f1640c90159"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/hdl/tgg_design_wrapper.v",
+      "bytes": 3264,
+      "sha256": "7d554c0c7f77782818bbda4316aaf0209b6a2d986c9a867baba2f2d1f603ce20"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/hw_handoff/tgg_design.hwh",
+      "bytes": 158950,
+      "sha256": "11de5b41d35296d1203558ba0b4f6483636f8379c0fdfac55b7ef87f26ad1481"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_0/tgg_design_axi_bus_0.xml",
+      "bytes": 121247,
+      "sha256": "c9a1cfcc6d75a03668383baf9ff4e1cdb57d7f2320e3d68887214be2672d8715"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_auto_pc_0/sim/tgg_design_axi_bus_imp_auto_pc_0.v",
+      "bytes": 14099,
+      "sha256": "277872968aebdbfff5fff94645b4f53ba6c72a3f21806a20fe9cd677e743ed12"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_auto_pc_0/synth/tgg_design_axi_bus_imp_auto_pc_0.v",
+      "bytes": 14906,
+      "sha256": "98bc3c80aba6b720a08289aaf41ab045cf08ea2b495d37e1bc784217e6f86e8b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_auto_pc_0/tgg_design_axi_bus_imp_auto_pc_0.xml",
+      "bytes": 221351,
+      "sha256": "f265b59b769b4b8bfec6c1e5df347ef4f5c0eeb98a0489fdbf47d7b07432e333"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_auto_pc_0/tgg_design_axi_bus_imp_auto_pc_0_ooc.xdc",
+      "bytes": 2400,
+      "sha256": "bdd2a4e25b02fa8805dc04a423a7a7b80442a889216a8643ab570a968998f40f"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/sim/tgg_design_axi_bus_imp_xbar_0.cpp",
+      "bytes": 184106,
+      "sha256": "426032bbef5a4d4457ac08c8178c3a43c78970c5fb53adf741261d5969f227dd"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/sim/tgg_design_axi_bus_imp_xbar_0.h",
+      "bytes": 64072,
+      "sha256": "28aef6b55418402075e3535c9d4d6cbf336479070bb87389d5c901f7a4c8cff1"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/sim/tgg_design_axi_bus_imp_xbar_0.v",
+      "bytes": 14692,
+      "sha256": "b62b4db1c37ee31790277c44a0713d8fa182ce395e2f2b799df49dc4c738df0b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/sim/tgg_design_axi_bus_imp_xbar_0_sc.cpp",
+      "bytes": 5863,
+      "sha256": "70c45ca6e4c39ef5053d9c1af33adce3d5840ef94e8c6bd05dcde97c011c72e5"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/sim/tgg_design_axi_bus_imp_xbar_0_sc.h",
+      "bytes": 3603,
+      "sha256": "8a8f96cc7cb5c6e46b2a4e9d3915484a1ff385dbb38be58eee311a4fc8fe20f3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/sim/tgg_design_axi_bus_imp_xbar_0_stub.sv",
+      "bytes": 6290,
+      "sha256": "347196f5fb84f9670f5956a13f7da469b1893eec5ddebfec126f658f63f9795f"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/src/axi_crossbar.cpp",
+      "bytes": 11976,
+      "sha256": "b9320bce3b1401fbe97a8d1538730108ad009ae913004d019c8ca172d5b9aaff"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/src/axi_crossbar.h",
+      "bytes": 6449,
+      "sha256": "d9c7d1c796ec46e94936430c8c211186f392c477d5c4e6392dd466f05a1bb61e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/synth/tgg_design_axi_bus_imp_xbar_0.v",
+      "bytes": 15908,
+      "sha256": "1c2a74d37aead7f7ca4bf2bc89d1b3b8b5093a912dfddd1ab521a10bd8ba6925"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/tgg_design_axi_bus_imp_xbar_0.xml",
+      "bytes": 2557645,
+      "sha256": "52212314794dc97fad21b52f3fe3513f1fdb8524801a81a67e908a2dacefda19"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_lcd_clock_0_0/sim/tgg_design_lcd_clock_0_0.v",
+      "bytes": 3596,
+      "sha256": "79e0349adf61a79a88e6faede2438727f21dcb962056e4eb7201e8a40cdfcc32"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_lcd_clock_0_0/synth/tgg_design_lcd_clock_0_0.v",
+      "bytes": 3941,
+      "sha256": "5677d807e9e00c47c0d7b19a1c88c6cb2ab4b042ed972222fc2ea62aeff2dcb0"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_lcd_clock_0_0/tgg_design_lcd_clock_0_0.xml",
+      "bytes": 17926,
+      "sha256": "31f76b9cf63bfb4ca960c08024ff54e08d07949c417b0b923f7846a954f49ad6"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/hdl/verilog/processing_system7_v5_5_processing_system7.v",
+      "bytes": 164773,
+      "sha256": "15ff45875d9bf2135060b381ab799c65da7339d5dd18d6a7dd53771dd7e50c85"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/hdl/verilog/tgg_design_ps7_0.hwdef",
+      "bytes": 272878,
+      "sha256": "34fc446a65856825a984e17fb34e450e13bf04c057cd9bb0b759de5b133e54ef"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/ps7_init.c",
+      "bytes": 335957,
+      "sha256": "32a246102f685d26a53e6b2f2896a4348e9786de586f1db61a00612842539df8"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/ps7_init.h",
+      "bytes": 3793,
+      "sha256": "665cec86b145559cff055d51ee740b6fc860aa9337ad09ca7f259da9e35deeff"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/ps7_init.html",
+      "bytes": 1940567,
+      "sha256": "87be40e934fc852c4881cd0c8a43b483469f261818aca2b50f5fecaf2c55c369"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/ps7_init.tcl",
+      "bytes": 26573,
+      "sha256": "7efae1b98d3e106a5b9c24813aec02f40194a5384fa82d2765dbf76c50f6f0ea"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/ps7_init_gpl.c",
+      "bytes": 336574,
+      "sha256": "91f81d5273dfe18d73355c321ed02b3c636b3ffa65d73f3facdd969ee5de0a89"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/ps7_init_gpl.h",
+      "bytes": 4411,
+      "sha256": "034779d35b0a982c3a4a5b4f443f193e7fef1bf4a549a433375afae19c516685"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/ps7_parameters.xml",
+      "bytes": 39506,
+      "sha256": "f25807fc66597cc8fe8c0ba60839dd4f593bfd2e24c655bb48a0c15fafa6c910"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/libps7.dll",
+      "bytes": 2248,
+      "sha256": "2eaf2f6216bffd8c3290601c480f03f7b848aee16d1b5a3d2b69a19e9de9acf8"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/libps7.so",
+      "bytes": 2248,
+      "sha256": "2eaf2f6216bffd8c3290601c480f03f7b848aee16d1b5a3d2b69a19e9de9acf8"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/libremoteport.dll",
+      "bytes": 2248,
+      "sha256": "2eaf2f6216bffd8c3290601c480f03f7b848aee16d1b5a3d2b69a19e9de9acf8"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/libremoteport.so",
+      "bytes": 2248,
+      "sha256": "2eaf2f6216bffd8c3290601c480f03f7b848aee16d1b5a3d2b69a19e9de9acf8"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/tgg_design_ps7_0.cpp",
+      "bytes": 50276,
+      "sha256": "d35aab6f9b58b245ce7ddc3a040a03b07e235c93385130b23ff8fc7aa67fab18"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/tgg_design_ps7_0.h",
+      "bytes": 22715,
+      "sha256": "3f6e5ab88598dacf2fcbb6484f9740bef6eaa1874ea1659fc3856062ccc1f228"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/tgg_design_ps7_0.sv",
+      "bytes": 37734,
+      "sha256": "edaa94c9dd40d17e1d5c20897b4a214eba28c2be786d38822d4b04289738f22c"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/tgg_design_ps7_0.v",
+      "bytes": 16051,
+      "sha256": "619a19a88c100df42a3265ed9bf33260309b625255aeeb8e4789a4f51097adf1"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/tgg_design_ps7_0_sc.cpp",
+      "bytes": 6469,
+      "sha256": "20e3c130d1f4245e3ab19a7aa6f18efab85681241b65e48040ec73c6781f514b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/tgg_design_ps7_0_sc.h",
+      "bytes": 3271,
+      "sha256": "1f126ef9c19b27e32017fffe21fcff5313bcc9a13e47cd8e8f8b3fa306718613"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim/tgg_design_ps7_0_stub.sv",
+      "bytes": 8068,
+      "sha256": "0a7a8bfd8767921edcdb588572595515aac68b87b61d503f39fab0f75bd93873"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim_tlm/b_transport_converter.h",
+      "bytes": 6799,
+      "sha256": "c567943eba560bd7cd37578df9bf83c79e5f76c74e7fe7bb0c7d1b71cb5e64f1"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim_tlm/processing_system7_v5_5_tlm.cpp",
+      "bytes": 10186,
+      "sha256": "1eb0f667685e6e00a027d4a28bb595fe1b94add8f47076aa19be0147c78bc286"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim_tlm/processing_system7_v5_5_tlm.h",
+      "bytes": 10128,
+      "sha256": "3c7f5ae0518b5c14cb04dfb13068f9580971608810b89c662ed8fefa51163397"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim_tlm/xilinx-zynq.cc",
+      "bytes": 3275,
+      "sha256": "e091ee1f3546d4c31f51fe061fe0ba27be711ed15b372c9699fd8ba99fe48d38"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/sim_tlm/xilinx-zynq.h",
+      "bytes": 3526,
+      "sha256": "939fb576f890b5f7b9298a01405f91877d09f6b503d45ba2680d0d03e61a5ebe"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v",
+      "bytes": 32872,
+      "sha256": "c145169abf5c9f73f8d9223d8916ea2f4cfbfe723542c99fcc7222cedd2c342d"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/tgg_design_ps7_0.xdc",
+      "bytes": 19192,
+      "sha256": "a5f2995b7827d83f76a2a10db08fe17cc65eeffb49a71b86cf3bf683066e3c49"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/tgg_design_ps7_0.xml",
+      "bytes": 2114127,
+      "sha256": "cc765011d34afdf8be35d23cfc6501f065b6870fa42c445729d94c14f923d2b3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_rst100_0/sim/tgg_design_rst100_0.vhd",
+      "bytes": 8188,
+      "sha256": "47b275012ef852e9e54b26461eecffe6d23d1ae48aee6662745fd9b8eae6b0fa"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_rst100_0/synth/tgg_design_rst100_0.vhd",
+      "bytes": 8980,
+      "sha256": "c1e8c31ee4ca9478f8ca8b81c24f4e5d387e198abc609464e148d31b61e4c63c"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_rst100_0/tgg_design_rst100_0.xml",
+      "bytes": 45405,
+      "sha256": "ce04ecafc131b492b890f0185874ab0830039ce9215e5bcf476a50d997daef5d"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_rst100_0/tgg_design_rst100_0_board.xdc",
+      "bytes": 60,
+      "sha256": "7ad209b673e69e5dc7667668407b509d8ac03974abdb527313a511db77cf15bd"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_tgg_capture_0_0/sim/tgg_design_tgg_capture_0_0.v",
+      "bytes": 6618,
+      "sha256": "f767ed3860d3dc5e5bd1e8296f9af59b698223b7893775f3705ff502bd67da83"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_tgg_capture_0_0/synth/tgg_design_tgg_capture_0_0.v",
+      "bytes": 7017,
+      "sha256": "e132178f7ea155d5296126fef98e20ccb6f92f2be0988a7189e6d944aaa53f93"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_tgg_capture_0_0/tgg_design_tgg_capture_0_0.xml",
+      "bytes": 54232,
+      "sha256": "34c0aac04e404a94cc68f5c9f379f3410aa4635ec0f5430a6436e4efedeb396b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_tgg_lcd_0_0/sim/tgg_design_tgg_lcd_0_0.v",
+      "bytes": 8156,
+      "sha256": "08022c5bf22ffa3d91a8a753fa88389421c053ed5ec5f28c2b30e6c49784a53b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_tgg_lcd_0_0/synth/tgg_design_tgg_lcd_0_0.v",
+      "bytes": 8638,
+      "sha256": "de6a8a15b62586c40b8584c379c2a714bb62e5c4197bb9e3c87ee94d1c1dee4d"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_tgg_lcd_0_0/tgg_design_tgg_lcd_0_0.xml",
+      "bytes": 75736,
+      "sha256": "1ff176845ed8eabf84361843336f752845c2bcec7616cb2955e743a08924b064"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v",
+      "bytes": 109253,
+      "sha256": "aa66c609ce332ef92f534450ee2812877fcf8e470cb23f9318b869185d9c2aa3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/42f3/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd",
+      "bytes": 14870954,
+      "sha256": "2773c28454aab3d19db406889ba07abf3eff7a800bdcbf8a4ff92dd286a3c7f5"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/4b52/hdl/verilog/processing_system7_v5_5_atc.v",
+      "bytes": 17746,
+      "sha256": "811c4dfe038ce29f2fc6cdac9d112b4fceebca9a24c10dbe8169b7bf32d2f117"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/4b52/hdl/verilog/processing_system7_v5_5_aw_atc.v",
+      "bytes": 11995,
+      "sha256": "e15bca46b8cb0d6facb8e52801abc8d199c07e1b5402ced4bf3a949f15bea078"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/4b52/hdl/verilog/processing_system7_v5_5_b_atc.v",
+      "bytes": 14642,
+      "sha256": "f68d9832de2690f4a4e44f7e19856aaad8e8336cd6f34e976d5fc7e24d168d95"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/4b52/hdl/verilog/processing_system7_v5_5_trace_buffer.v",
+      "bytes": 8668,
+      "sha256": "96f6ee6b2d1bbd615a03b0dd70ffcf251f9d3b20495b97ef5e4f32885035b53e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/4b52/hdl/verilog/processing_system7_v5_5_w_atc.v",
+      "bytes": 9582,
+      "sha256": "5ec81cabce1402912555bd56f15ef2566eb34d7fed26e58e4655eb2839fd3c3e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd",
+      "bytes": 66316,
+      "sha256": "df892cc9994a5a02f7089876a26e2129d449d8221c4e6cbf45f46e28e4a32696"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_apis.v",
+      "bytes": 40744,
+      "sha256": "aef1a512b3851c671c9ca59de10ffb57e1845b998e515dade34a7363571ec530"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_axi_acp.v",
+      "bytes": 3921,
+      "sha256": "82f576f584285d55668630030b8eebadc697e0a2b3e94141ece948653b5bb1c9"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_axi_gp.v",
+      "bytes": 12797,
+      "sha256": "240d5531f551c675e52ec92831b02a31b02a5d815a13de8fb318fa65f755f1a9"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_axi_hp.v",
+      "bytes": 14980,
+      "sha256": "96c0ffdf7cc25c31c061be09c3c802c75597484245d31562a36e7f3da0ba79a5"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_local_params.v",
+      "bytes": 9967,
+      "sha256": "4b4d56baef55bead4c32ec8094ce8d705e94be53d99d043d69f5c24f355131c6"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_reg_init.v",
+      "bytes": 178764,
+      "sha256": "ebb205f61fc85ca5dcf06b99e8ee6636777d765d22eeee88efbd1e4c2d8c1234"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_reg_params.v",
+      "bytes": 397488,
+      "sha256": "6d3684711bf2440e5528790346a1e86d230daf72a89fc2ea99d195491eadb0f5"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_unused_ports.v",
+      "bytes": 12829,
+      "sha256": "00948a4e930e9bf2b98da7b378ce0adf10f44ae76be730977e49f9418ca5710b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9a25/hdl/processing_system7_vip_v1_0_vl_rfs.sv",
+      "bytes": 465892,
+      "sha256": "a8ea5002290e272eb93e3d78af20fa381cc4d1d1de3d1967bdb7afba851b9305"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/b16a/hdl/axi_vip_v1_1_vl_rfs.sv",
+      "bytes": 31032,
+      "sha256": "abf4abfefaddbe9656f33a3d8ec65f80ef0eeff804a160782fdf36b3051abcd1"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v",
+      "bytes": 174589,
+      "sha256": "82727d8cd17427489629f7b4e56fac7321c31b3043e3be44882fda731f472ecf"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d654/hdl/fifo_generator_v13_2_rfs.v",
+      "bytes": 598519,
+      "sha256": "464668959b6f624fe55dd290528dc926f84481262df54b74ac5caa29fbf99211"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d654/hdl/fifo_generator_v13_2_rfs.vhd",
+      "bytes": 1441764,
+      "sha256": "5eb44d57a4b69bff7a38cdaa5147f02071fffcd0ceb3aaa08144181a3e80e48d"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d654/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd",
+      "bytes": 2440891,
+      "sha256": "9b1c0940fb281d16b6a1b398a6a5dc39264026e936507de8914d7328cbd1e5f2"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d654/simulation/fifo_generator_vlog_beh.v",
+      "bytes": 452373,
+      "sha256": "1cbf7574e82f6db0e618a22ae496955d24caad1e1df38ff6361ed23e5f9ce640"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v",
+      "bytes": 246013,
+      "sha256": "fe0a3d398598824230a87a915e4ed1005eeee8ce5a6924b97c750febfb44380f"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh",
+      "bytes": 8325,
+      "sha256": "6f75042bd294dd05d9e4d326fe845e6bd44ec51637b1ad8ce66fbc295f16cc52"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v",
+      "bytes": 29851,
+      "sha256": "64a5966a7f6c9f296102fb2816e0f4ac4808888b2b64bc0bdafae9ea019a72c4"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v",
+      "bytes": 309459,
+      "sha256": "d1a7aaa5526853ebe8e22f942a256b133baa1fd3b8cebaacc3fd140ae7a791d2"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/fb46/hdl/axi_data_fifo_v2_1_vl_rfs.v",
+      "bytes": 72204,
+      "sha256": "5695eeb3c944a572b5ebc2fe7c9378261b98932b7cbf6fa1f9c5a48c2bdcc30f"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/sim/tgg_design.protoinst",
+      "bytes": 22495,
+      "sha256": "874f2e69510448e184553ca632bdd26d28e8214ff44fe7aa2d123282390d045b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/sim/tgg_design.v",
+      "bytes": 44717,
+      "sha256": "88e3e3495de7ceb6aed40c691bdf845a8e6ada330db8d19963f225ff10ec458b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.hwdef",
+      "bytes": 19353,
+      "sha256": "c04b5fe34eefa16329bbfa45ae8e8577f4eff6c4116bcfbddbc2d8deeb8a7468"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v",
+      "bytes": 44717,
+      "sha256": "88e3e3495de7ceb6aed40c691bdf845a8e6ada330db8d19963f225ff10ec458b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/tgg_design.bda",
+      "bytes": 7129,
+      "sha256": "286f0da6422bd6ade5e31ed9223b75d5dc55447d41f17c1afd5ef215070f0cc3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/tgg_design.bxml",
+      "bytes": 3998,
+      "sha256": "fccfd88d48b1ad6b851882e7cdab35ddebd4621580fdd1ad7b6e2679896ef326"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/tgg_design.veo",
+      "bytes": 4471,
+      "sha256": "ebe6eaf95a369e0fe4e434a2e7a6756b3fa4e72d50c77eaedc5bc307023d2ad0"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/tgg_design.vho",
+      "bytes": 5104,
+      "sha256": "7f66576bd963e53ccab73d6cb6e7b165aa7dcd14cd91cd90965800eee04be3a6"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/tgg_design_ooc.xdc",
+      "bytes": 619,
+      "sha256": "b4360edfcd982c902bf0a095ba090c01b9f77bf7e38a5bf05ea793f68fd2c0b3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/tgg_design_sv.sv",
+      "bytes": 5188,
+      "sha256": "c09a320ea6719e7d0cbc8ec72115ea8447c1b1249ec496ed38013f839e533170"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/tgg_design_sv.sveo",
+      "bytes": 5133,
+      "sha256": "2bbc205f346a11fbbc2297caa2a61a9890abd75e0598ef70eae2fefb4a64f6c3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.hw/tgg_lcd_7020.lpr",
+      "bytes": 425,
+      "sha256": "b373cf9663fa8b6acdd3cceeb201aea1c7fbbee5cf7c6d675bf0c6ccd52f4c69"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/.jobs/vrs_config_1.xml",
+      "bytes": 586,
+      "sha256": "b092bde0db6ab78b7f585a270bec88d74f547ce09991fcd789df0d29b44f2099"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/.jobs/vrs_config_2.xml",
+      "bytes": 603,
+      "sha256": "c944f9598eb2753f936afcd6bfb4cfaf4ec2669c4ee6b39fb1072be192b793f2"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/.jobs/vrs_config_3.xml",
+      "bytes": 586,
+      "sha256": "b092bde0db6ab78b7f585a270bec88d74f547ce09991fcd789df0d29b44f2099"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/.jobs/vrs_config_4.xml",
+      "bytes": 603,
+      "sha256": "c944f9598eb2753f936afcd6bfb4cfaf4ec2669c4ee6b39fb1072be192b793f2"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.init_design.begin.rst",
+      "bytes": 175,
+      "sha256": "156db66770af3279ccc438def095dda46be7b91f9b53ae77a72f5aff2c51a705"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.init_design.end.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.opt_design.begin.rst",
+      "bytes": 175,
+      "sha256": "156db66770af3279ccc438def095dda46be7b91f9b53ae77a72f5aff2c51a705"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.opt_design.end.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.phys_opt_design.begin.rst",
+      "bytes": 175,
+      "sha256": "156db66770af3279ccc438def095dda46be7b91f9b53ae77a72f5aff2c51a705"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.phys_opt_design.end.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.place_design.begin.rst",
+      "bytes": 175,
+      "sha256": "156db66770af3279ccc438def095dda46be7b91f9b53ae77a72f5aff2c51a705"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.place_design.end.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.route_design.begin.rst",
+      "bytes": 175,
+      "sha256": "156db66770af3279ccc438def095dda46be7b91f9b53ae77a72f5aff2c51a705"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.route_design.end.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.vivado.begin.rst",
+      "bytes": 214,
+      "sha256": "a73fe0af6ad4fa2c7e4a0b397484297eb5211266ae0793973b02ff2f35d5f69c"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.vivado.end.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.Vivado_Implementation.queue.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.write_bitstream.begin.rst",
+      "bytes": 175,
+      "sha256": "156db66770af3279ccc438def095dda46be7b91f9b53ae77a72f5aff2c51a705"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/.write_bitstream.end.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/clockInfo.txt",
+      "bytes": 382,
+      "sha256": "5d26eb2bbcb482caf7ea545005c7463c9a64e611e0b84e4520e3f3d9e55d4b4f"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/dfx_runtime.txt",
+      "bytes": 114,
+      "sha256": "32db1cdd6132e50827263f21b3ee6c0b3387b13954d2872a0aa244f0022c3b0a"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/gen_run.xml",
+      "bytes": 12871,
+      "sha256": "65acf05bd51c62018deebe44ea122548bd8693f08a350dcd07e8564a719adba4"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/htr.txt",
+      "bytes": 496,
+      "sha256": "b971874ddabab9df3f362f5b62f9925dbeaf2d4c12c5f3899a017feda2465ee6"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/init_design.pb",
+      "bytes": 4115,
+      "sha256": "d6718bce6f2dda0bbce6f48c208bfb0b71e5d94677263f2f65db6d537e21fa2b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/ISEWrap.js",
+      "bytes": 8435,
+      "sha256": "d906082cbc10c5eca7792a66a771770f43ed0fbffab7019c2b30adddbe398e4b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/ISEWrap.sh",
+      "bytes": 2175,
+      "sha256": "8090e9fdb921df47a7d031dd74ba04d3f074321ddfe13f30f004e00891bdea76"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/opt_design.pb",
+      "bytes": 16141,
+      "sha256": "a12ee805dc3cf768e923f818968456bb7d3be07c61c86cfe8f7375d12d440ca9"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/phys_opt_design.pb",
+      "bytes": 3178,
+      "sha256": "8b74fa06e0cec28083899314153dde62c4774190a89f8082c72ded62c7dc8297"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/place_design.pb",
+      "bytes": 22727,
+      "sha256": "549eb952a49b206f93521af28025f6f577344e4361b2f416161f485293ef6646"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/project.wdf",
+      "bytes": 5177,
+      "sha256": "9d2989624241bcccd85232e6a426b6848e68e8b879299dd64979f4fb3043accc"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/route_design.pb",
+      "bytes": 15256,
+      "sha256": "57fe32d32402e5b2ce7e2e6e9f0ed4c7fd1b571ded8d548029dc85ce520adfb6"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/rundef.js",
+      "bytes": 1556,
+      "sha256": "6ac1cbae9caa6fd6b89d7b2383d3609267524bebbea1e561a240a493d5293c12"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/runme.bat",
+      "bytes": 305,
+      "sha256": "3b7e573bdaf23a9c6e610b44a205a1bd9b9a4c37cb371d40fb43650e5da0c083"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/runme.log",
+      "bytes": 45478,
+      "sha256": "a8649376c0f0477af2937214e9432dd6229b7077ab29348e248b445f1708c76d"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/runme.sh",
+      "bytes": 1447,
+      "sha256": "de4f7a8918fb413222b945a8ecaf01fedede123cff1e3a6b094282569ef0fbd8"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper.bit",
+      "bytes": 4045694,
+      "sha256": "190669f3e140285e7183ae5e7012f8238f2bd9ee3e68a063b756ef90889fcabd"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper.tcl",
+      "bytes": 13304,
+      "sha256": "c423b540b2aa7bd5d84067e789d31d57172f823bb6814aafe0c115de672ae4d6"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper.vdi",
+      "bytes": 45433,
+      "sha256": "70eb76c2fdd53ac7b5be1f4af982aed042f9018d93fc4aa7b1f23e3268cf399e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_bus_skew_routed.pb",
+      "bytes": 30,
+      "sha256": "8022a3801e0d9eed3a5559af22ee8b8d82a70a55cd06a3c10d5bc00f95f7b238"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_bus_skew_routed.rpt",
+      "bytes": 1069,
+      "sha256": "541ca672c8749b0044db799efcb046c04942a5f536335cee3bfb7a0560833861"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_bus_skew_routed.rpx",
+      "bytes": 1183,
+      "sha256": "3bd52ddfb033981dc0228ce1cae24f853ca6751da9d572f5b725654d2986c89d"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_clock_utilization_routed.rpt",
+      "bytes": 30332,
+      "sha256": "c5e5b106f7e51b9ff7e57fcf1667cf4af467e89d14733853478e06066dd16a9e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_control_sets_placed.rpt",
+      "bytes": 71974,
+      "sha256": "e593ad00d071c4dc5ddab817d1a33f0e0c10d225d4e030a03a53798b2105b122"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_drc_opted.pb",
+      "bytes": 37,
+      "sha256": "6c3244303f5fcf250b0abbd6cfdb1fa0d205d35c901a3c30a78813d5d46283ae"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_drc_opted.rpt",
+      "bytes": 36585,
+      "sha256": "d2eea33e16761ddf66ef095d0f0aac394aaee508489e87ab0df05f1cca688215"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_drc_opted.rpx",
+      "bytes": 70622,
+      "sha256": "9eaf311fe237f17f124caf97727db5d7bca1603ef839dc85680b9d164b064ec7"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_drc_routed.pb",
+      "bytes": 37,
+      "sha256": "6c3244303f5fcf250b0abbd6cfdb1fa0d205d35c901a3c30a78813d5d46283ae"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_drc_routed.rpt",
+      "bytes": 36595,
+      "sha256": "ca551d85c2fe47a6ae9cef8133b10b1927ebc0116d6236d511e7330512ea5efc"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_drc_routed.rpx",
+      "bytes": 70623,
+      "sha256": "67b584e641a7136e99005e0d3cfb32c6a0fab38664d739ef304a07c1ab8ddb92"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_io_placed.rpt",
+      "bytes": 125054,
+      "sha256": "2ad136f873b505dde09f29cd980d7c089358178f362da5e6a66d1aaa004fbe8c"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_methodology_drc_routed.pb",
+      "bytes": 52,
+      "sha256": "ccac443a8fc11d5d9e0a60094c058781a78e3b17c80feee70809db21d33d7ef2"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_methodology_drc_routed.rpt",
+      "bytes": 10599,
+      "sha256": "3ac84584501c350131645906b112b3e8bcb79547188517576b95d2c1c4ff1a85"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_methodology_drc_routed.rpx",
+      "bytes": 15763,
+      "sha256": "11b84afd9452e8a37f78ccdb73cc231c336157e45b52949b20280da05fbd141c"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_opt.dcp",
+      "bytes": 1527931,
+      "sha256": "a170b99b65734e7fedddaae439f6e7a51faa0637bb8e73402e46593706fb1d96"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_physopt.dcp",
+      "bytes": 2640653,
+      "sha256": "b1b8a94124eba24cf259a4191e60909eaa0048d97d9b97b7cb0f525fcad12294"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_placed.dcp",
+      "bytes": 2640338,
+      "sha256": "32456ef34cd951b5a25454b1e2046cb5d0de37bc92cc9f96189506c6d9a5c25c"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_power_routed.rpt",
+      "bytes": 11050,
+      "sha256": "caa16edce4d0439869770c3a2d621491b24ddaadffefbe2e4e7f80ac8e135c3f"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_power_routed.rpx",
+      "bytes": 2244861,
+      "sha256": "160e1985cce230c143ba4f1f6e9f866e8339de3ac7a3e316fee13087fd8d524e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_power_summary_routed.pb",
+      "bytes": 867,
+      "sha256": "1eb59da5aa97e041392cd0e0781d85a1a433054f14ba5ce506409160ed7c2e3a"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_route_status.pb",
+      "bytes": 44,
+      "sha256": "bcea8ed85f94164954fe8319a86ce0a98a3a694ea0f392998e9d4b70c28ed721"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_route_status.rpt",
+      "bytes": 651,
+      "sha256": "55b2cae646671e3b57c4a02c190caa6d2df26a215786d7fd2a499a0c1df19a69"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_routed.dcp",
+      "bytes": 3128711,
+      "sha256": "2b4c388fa111d3dacd4de114af10a8da3ba3b6d06efc261d1a25096f6ac74c9e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_timing_summary_routed.pb",
+      "bytes": 111,
+      "sha256": "19712b50fafcbe84ef9631146d6ae924f616e466c10aaf36e7c3b63cf08e2b70"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_timing_summary_routed.rpt",
+      "bytes": 4309764,
+      "sha256": "46612a26dee6c38d04cab0835abe0cdea29c858ac4dc77d7f827810e7f90a16b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_timing_summary_routed.rpx",
+      "bytes": 4851784,
+      "sha256": "107165dcfee2c0826446cbb9a9fd5f021855a4edd8beeb9da175ef5087c5b18f"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_utilization_placed.pb",
+      "bytes": 224,
+      "sha256": "8a66dab437e7e6cdfe9794c86b31a31fa70eb5f87358eb3a6cf5cd137c097236"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/tgg_design_wrapper_utilization_placed.rpt",
+      "bytes": 11923,
+      "sha256": "2ca185802f9559563cdfa8a5e8da51b4be2bbe00790bb903af24b6133292c36b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/vivado.pb",
+      "bytes": 112,
+      "sha256": "fc205e3a1a44be2d3f2f69c00ff325526d95484140719b1a249763a83558da1e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/impl_1/write_bitstream.pb",
+      "bytes": 1985,
+      "sha256": "070b307b04e1e9952122b6d950432135f475d91699feb134bab0bb0a64b1990e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/.gen/sources_1/bd/mref/tgg_lcd_axi/component.xml",
+      "bytes": 41409,
+      "sha256": "002b16df1b3f31b3e764a55742b252ba8e5c85658181c205fdb4d26ca9eb9800"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/.gen/sources_1/bd/mref/tgg_lcd_axi/xgui/tgg_lcd_axi_v1_0.tcl",
+      "bytes": 7339,
+      "sha256": "e2d25224e00cb85ee8e59b0cab4764f9f392561eeda1a51a28e5e467dda0dcb3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/.gen/sources_1/bd/mref/tgg_lcd_clock/component.xml",
+      "bytes": 10418,
+      "sha256": "e643079c5ec8a4c23d04d0d17f3e0d12f8ff765906cc8ec8c424ea3665d352ac"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/.gen/sources_1/bd/mref/tgg_lcd_clock/xgui/tgg_lcd_clock_v1_0.tcl",
+      "bytes": 205,
+      "sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/.gen/sources_1/bd/mref/tgg_system_top/component.xml",
+      "bytes": 29685,
+      "sha256": "b38d913b58893b019b47a6b97740ed7a5f55649a545c5ec7f30924adf961e7d3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/.gen/sources_1/bd/mref/tgg_system_top/xgui/tgg_system_top_v1_0.tcl",
+      "bytes": 2622,
+      "sha256": "a35ecbc5926d1cfe5359bfe6e42f87698c259ef6ce31557b87790f1640c90159"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/.vivado.begin.rst",
+      "bytes": 214,
+      "sha256": "122da484db543b7ed8c95e6364b9bdf8c2fc1aae758db470b8c8ffa3836031f7"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/.vivado.end.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/.Vivado_Synthesis.queue.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/__synthesis_is_complete__",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/dfx_runtime.txt",
+      "bytes": 113,
+      "sha256": "3f5da73223faaccd53f59b80c89a7cceb34b0828a474fd53a288d6370f06288e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/dont_touch.xdc",
+      "bytes": 3315,
+      "sha256": "6ad6a672813f66ab400d29b0486b08bdfad5e4a62d2c5e98787d713c0c690c9c"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/gen_run.xml",
+      "bytes": 4822,
+      "sha256": "45ef7f058deee33cf1080027952853f86ba968dadbe3138089ba8cee2c43d047"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/htr.txt",
+      "bytes": 488,
+      "sha256": "ebb47f048ec7fc62bd39b8dac03fe0c4059c9332d39ab1b0b7165aaaad6c68b4"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/incr_synth_reason.pb",
+      "bytes": 57,
+      "sha256": "4a6432fe2cf0c71e1810790297e980172cefbb403bafe72cfbe4fcc0c22c3e38"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/ISEWrap.js",
+      "bytes": 8435,
+      "sha256": "d906082cbc10c5eca7792a66a771770f43ed0fbffab7019c2b30adddbe398e4b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/ISEWrap.sh",
+      "bytes": 2175,
+      "sha256": "8090e9fdb921df47a7d031dd74ba04d3f074321ddfe13f30f004e00891bdea76"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/project.wdf",
+      "bytes": 5177,
+      "sha256": "9d2989624241bcccd85232e6a426b6848e68e8b879299dd64979f4fb3043accc"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/rundef.js",
+      "bytes": 1485,
+      "sha256": "a55ca8076d54ef55ae352ca6870f733a32eb9353b2a260f9f65eec7fe6b801dd"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/runme.bat",
+      "bytes": 305,
+      "sha256": "3b7e573bdaf23a9c6e610b44a205a1bd9b9a4c37cb371d40fb43650e5da0c083"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/runme.log",
+      "bytes": 91956,
+      "sha256": "b128f53c688c37f6dae89d90a61bdb6b717fc10851989f01d2b8bf52f777e4c3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/runme.sh",
+      "bytes": 1384,
+      "sha256": "fa60399cc1cc2ae0c95d7b3a34382cc949c8e4ac01a410a099e31f5a5fd6e1a9"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/tgg_design_wrapper.dcp",
+      "bytes": 1193163,
+      "sha256": "3bc3160589d46dcd7f54ff33cb19bded536240d1cb4e3c113d8b5b4a52f8fb8c"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/tgg_design_wrapper.tcl",
+      "bytes": 6996,
+      "sha256": "e069c01b517da3f362a39cc429cd5d221a20b18bab3e8d9428a065c343622c6b"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/tgg_design_wrapper.vds",
+      "bytes": 92008,
+      "sha256": "7d65133d7ed424510c50ce21d61ddb095242eb8dc63f7869edfa8e6df5b8810e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/tgg_design_wrapper_utilization_synth.pb",
+      "bytes": 224,
+      "sha256": "e124a2ca3411edbebe427a9a25bf52385c1e8d72fb9d43001083eebe78795fd4"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/tgg_design_wrapper_utilization_synth.rpt",
+      "bytes": 9569,
+      "sha256": "509bf928e5d0271d1f9615aec5644ba556dfa5da0f8333adbd7005a26b02f486"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/vivado.pb",
+      "bytes": 112183,
+      "sha256": "9b794c857ed96d5e3d30fb3e23cbb18e4c215805796d909255c39e600cad7933"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_0/tgg_design_axi_bus_0.xci",
+      "bytes": 35553,
+      "sha256": "62166c79824e6390bfa579f95d6b660aba731f33d32fed77a069a546dee0f0b7"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_auto_pc_0/tgg_design_axi_bus_imp_auto_pc_0.xci",
+      "bytes": 29851,
+      "sha256": "2a3f8cf81fa08ca55e914ee970a0f050936bfc97dc6a26f021a8118d103a3b26"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/tgg_design_axi_bus_imp_xbar_0.xci",
+      "bytes": 219822,
+      "sha256": "9a1f49a90b0c8a28cddf8f89d103cb8574017f7d47bcd705713ab1b2ddad974c"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/sources_1/bd/tgg_design/ip/tgg_design_lcd_clock_0_0/tgg_design_lcd_clock_0_0.xci",
+      "bytes": 5442,
+      "sha256": "5519b0303b6f7db72dc534c53880ac6db41eb619d16e628261892ae183fad3d5"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/tgg_design_ps7_0.xci",
+      "bytes": 139271,
+      "sha256": "a224fe29de4eedd300f6a8a4edd989cd2374481fa5fe234ee466ce21465dae1e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/sources_1/bd/tgg_design/ip/tgg_design_rst100_0/tgg_design_rst100_0.xci",
+      "bytes": 12705,
+      "sha256": "b262ef64c127b32f0856ec51e73b50725705962c1822afcef18ce0e0baf87a29"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/sources_1/bd/tgg_design/ip/tgg_design_tgg_capture_0_0/tgg_design_tgg_capture_0_0.xci",
+      "bytes": 14700,
+      "sha256": "00b9b89872f87419ac5c6d558114c72b65b819f2b048ef76f46f68bee0a28c87"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/sources_1/bd/tgg_design/ip/tgg_design_tgg_lcd_0_0/tgg_design_tgg_lcd_0_0.xci",
+      "bytes": 21249,
+      "sha256": "a84b31219a13fcc562bc70c8deb797af0e89b379f5f35e2f46868969a6b19b34"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/sources_1/bd/tgg_design/tgg_design.bd",
+      "bytes": 59594,
+      "sha256": "60d1510911db20223e22039ecd10cea8551d6fcfa94e237123fa3843ce5f1b2d"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/sources_1/bd/tgg_design/tgg_design.bda",
+      "bytes": 7129,
+      "sha256": "286f0da6422bd6ade5e31ed9223b75d5dc55447d41f17c1afd5ef215070f0cc3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/utils_1/imports/synth_1/tgg_design_wrapper.dcp",
+      "bytes": 1187149,
+      "sha256": "a81468b023a78a9afeefe08aaafad255a973a6e6c8d3a18dcaf6ce10b0099c96"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.xpr",
+      "bytes": 14976,
+      "sha256": "6c7b44789e5c86121694bc95fb2df85f5fdf1b805d792179d51b316702b5c009"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.xsa",
+      "bytes": 406991,
+      "sha256": "2dcafa6fc25dab0878100e65d376fcb8c373f635d0a8e8132c9af77f13d520b3"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/timing_summary.rpt",
+      "bytes": 154142,
+      "sha256": "09ef3024067cd69c90814eb882801552e015dad83621de60f5533367ac60b31e"
+    },
+    {
+      "path": "FPGA/FPGA/project_lcd_7020_ddr/utilization.rpt",
+      "bytes": 11902,
+      "sha256": "8330ac1f7a443b42e8b944b6e811a5cd725b5e2918502b54da800020a1002cfa"
+    },
+    {
+      "path": "FPGA/FPGA/rtl/tgg_capture.v",
+      "bytes": 8168,
+      "sha256": "84ccd2c5df4f2f1603a1ae253f9eef6059c8b7b0918fb468799910c3e4a2b2e5"
+    },
+    {
+      "path": "FPGA/FPGA/rtl/tgg_lcd_axi.v",
+      "bytes": 11077,
+      "sha256": "a8550576008bb0ad47784b196e239996b7c3f4e0cdad7557e3b4d366f40b40d4"
+    },
+    {
+      "path": "FPGA/FPGA/rtl/tgg_lcd_clock.v",
+      "bytes": 1775,
+      "sha256": "12e2fe476532ee7d5b01ce5afc0b84de67bdc439e564bee181512d96614c586c"
+    },
+    {
+      "path": "FPGA/FPGA/rtl/tgg_lcd_font.v",
+      "bytes": 1902,
+      "sha256": "f4a5dedfcd49e3d04ac4269cdc468587dee59d2d39bdb05b91d25a50c773a681"
+    },
+    {
+      "path": "FPGA/FPGA/rtl/tgg_sample_tick.v",
+      "bytes": 3900,
+      "sha256": "5b74741e25ae2804368d89cbc32b78080af20bd65969171e068e027b3f3fdd49"
+    },
+    {
+      "path": "FPGA/FPGA/rtl/tgg_system_top.v",
+      "bytes": 17425,
+      "sha256": "f44d91d7102ca6a6eeaee340c7d342cd7e451b14a6560f31ceedba120710c9ce"
+    },
+    {
+      "path": "FPGA/FPGA/rtl/tgg_xadc.v",
+      "bytes": 8210,
+      "sha256": "5524bdac92979df15c0e3b26b7ea1f5c80a6ac1e57bb9d3ea94bed383a7736bd"
+    },
+    {
+      "path": "FPGA/FPGA/constraints/linghangz_7020_lcd.xdc",
+      "bytes": 3539,
+      "sha256": "41b6d8ad4a19ef671de41a3a41a4ec7c9155bb862c7b9f018a41220d392b3ae2"
+    },
+    {
+      "path": "FPGA/FPGA/constraints/linghangz_lcd_timing.xdc",
+      "bytes": 1809,
+      "sha256": "600f1d44a1e6fa6fcbc3566857199c2cd329a1dc1070c3a93c35b87cfb696573"
+    },
+    {
+      "path": "FPGA/FPGA/sw/ddr_memory_test.c",
+      "bytes": 6214,
+      "sha256": "4bb7437d3370153682f45d6ca25d59ae8f8628ae9d776bc44d0b780de1a9149b"
+    },
+    {
+      "path": "FPGA/FPGA/sw/main.c",
+      "bytes": 3409,
+      "sha256": "0476285d462757738b7704493336a5e253d702a8c30231087bcf559b603b9af3"
+    },
+    {
+      "path": "FPGA/FPGA/sw/tgg_analysis.c",
+      "bytes": 7641,
+      "sha256": "a64a6fd19e6abede113e60b82a23b6c2dae8fd421fb0b049cc940cc685ee4f1d"
+    },
+    {
+      "path": "FPGA/FPGA/sw/tgg_analysis.h",
+      "bytes": 958,
+      "sha256": "4f6dccacff7594cd8db767cb0f2bc23031662efbe3916c64bde6ffaf381ecae0"
+    },
+    {
+      "path": "FPGA/FPGA/sw/tgg_analysis_tb.c",
+      "bytes": 795,
+      "sha256": "74f03a60d7c2e10003d38b267f00eda2aa29d8156f20632b5b4527202a03bb12"
+    },
+    {
+      "path": "FPGA/FPGA/sw/tgg_display.c",
+      "bytes": 5832,
+      "sha256": "3873e32f674f0d51c5c2eee4daa8c69c576dededa9df67ee7bfd63cb110efdba"
+    },
+    {
+      "path": "FPGA/FPGA/sw/tgg_display.h",
+      "bytes": 390,
+      "sha256": "314abdc6c65f270aa09fc5dcb68dca82b94d3acf0d309d63d6bd7c77e8ef710e"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/build_ddr_software.py",
+      "bytes": 8701,
+      "sha256": "e2f993e90e6a2417804737ac818e3acc68d8ded130f38edfbcf78ae769167ffc"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/cleanup_lcd_ooc_runs.tcl",
+      "bytes": 1643,
+      "sha256": "8645289cf1e6c918df2b6da7fbf1c67083f01f3df1cc36d8edf6b9dd2b005f10"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/create_lcd_ddr_project.tcl",
+      "bytes": 1889,
+      "sha256": "b653f84ceb7dfaf5a157f09e7ac5749ae24f2662e388313c89b41f5ca4e391bc"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/create_lcd_project.tcl",
+      "bytes": 6341,
+      "sha256": "c4665f96867180c9cfb1a94d16fc0fe7e050965d735abb95c561b884a0097df3"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/ddr_debug.tcl",
+      "bytes": 9052,
+      "sha256": "2ff20a495f5ef0a6372ad25a9aaf33fd65f42dc2c6c7095fe3312fd7dac29b26"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/export_ps7_ddr_config.tcl",
+      "bytes": 1022,
+      "sha256": "4856ab8c289d2435c76be3a36e3f3a557284a71f4a45be8ac6e1c356df0ffd52"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/linghangz_7020_ddr_manual.tcl",
+      "bytes": 1766,
+      "sha256": "85afa2515b3d2c220e263c3e32a5007d63a0ef130636ff9fc1fc6e92399ab4fa"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/prepare_ocm.tcl",
+      "bytes": 501,
+      "sha256": "1ebd7335bae6fb2b710fceca528cd75806597eaf84bb2f683bac75f9f321c5b6"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/rebuild_lcd_ddr_project.tcl",
+      "bytes": 2057,
+      "sha256": "6b8a4136ae6742678f3c231890bd3586dc81e05f77b5eedd0e2cab628a4bcf25"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/rebuild_lcd_project.tcl",
+      "bytes": 2031,
+      "sha256": "dac56f499f662e74476e564c0023fb3d823b38273ff08c5c7be53fb6bb54f373"
+    },
+    {
+      "path": "FPGA/FPGA/scripts/verify_lcd.ps1",
+      "bytes": 1903,
+      "sha256": "2a8b7d2c7b466151e044e3f770de850ac67a0d72998b194f5158fdecb9947179"
+    },
+    {
+      "path": "FPGA/FPGA/tb/setup_xsim.tcl",
+      "bytes": 494,
+      "sha256": "2cf23f19feba6510a1ce31edcc0112768c549e71f31f20644188f171e6a1335a"
+    },
+    {
+      "path": "FPGA/FPGA/tb/tb_tgg_capture.v",
+      "bytes": 7049,
+      "sha256": "a799d217beacc67f0635459706deb6733e5d1100cf09c8d338eb83388d64bc9c"
+    },
+    {
+      "path": "FPGA/FPGA/tb/tb_tgg_lcd_axi.v",
+      "bytes": 4703,
+      "sha256": "32ae0195da73d1244fc533bf5e5a1afb564a1315b07c06a22462d4d5e4c35b44"
+    },
+    {
+      "path": "FPGA/FPGA/tb/tb_tgg_lcd_clock.v",
+      "bytes": 1044,
+      "sha256": "eaf9db6a05e37b6103e39bf9fe871566cc07d1ac1e2c14846f265ba7e0d59547"
+    },
+    {
+      "path": "FPGA/FPGA/tb/tb_tgg_lcd_panels.v",
+      "bytes": 4309,
+      "sha256": "1cc667e50247c792a9852792029fab08406e8fdd21e3472c2f5d2dbc3cf436ab"
+    },
+    {
+      "path": "FPGA/FPGA/tb/tb_tgg_sample_tick.v",
+      "bytes": 4405,
+      "sha256": "4b8d7d587a07c132e034722065ba53b2fbcbeef3cbc95190618fa0c669586253"
+    },
+    {
+      "path": "FPGA/FPGA/tb/tb_tgg_system_top.v",
+      "bytes": 22176,
+      "sha256": "e5b7ee0d8b4d918871bb35125a47484dc8cddf93fffa47b7d3347b1e568010e2"
+    },
+    {
+      "path": "FPGA/FPGA/tb/tb_tgg_xadc.v",
+      "bytes": 12852,
+      "sha256": "36f469913eebb52f00a841f60bbc4d161ff7d709f5a43ae169ccc7bdf2a2c3bf"
+    },
+    {
+      "path": "FPGA/FPGA/tgg_final2.py",
+      "bytes": 25678,
+      "sha256": "f49f367262712cd36650ef711842cfddb12182e78b21fac1b2ccf35dc5f564a1"
+    },
+    {
+      "path": "display_20261024/ddr/delivery/tgg_design_wrapper.bit",
+      "bytes": 4045694,
+      "sha256": "190669f3e140285e7183ae5e7012f8238f2bd9ee3e68a063b756ef90889fcabd"
+    },
+    {
+      "path": "display_20261024/ddr/delivery/tgg_lcd_7020.xsa",
+      "bytes": 406991,
+      "sha256": "2dcafa6fc25dab0878100e65d376fcb8c373f635d0a8e8132c9af77f13d520b3"
+    },
+    {
+      "path": "display_20261024/ddr/delivery/ps7_init.tcl",
+      "bytes": 26573,
+      "sha256": "7efae1b98d3e106a5b9c24813aec02f40194a5384fa82d2765dbf76c50f6f0ea"
+    },
+    {
+      "path": "display_20261024/ddr/delivery/ddr_memory_test.elf",
+      "bytes": 206228,
+      "sha256": "f63654df3a77a3e855bb94fdbf30f76e4c57ea89b576703b8bd58d3ce8b5442c"
+    },
+    {
+      "path": "display_20261024/ddr/delivery/tgg_display_ddr.elf",
+      "bytes": 261296,
+      "sha256": "d8e1d70803a83c272f135b294b23ec0bfc89d8d92d02b954f5857e8768d39dee"
+    }
+  ]
+}

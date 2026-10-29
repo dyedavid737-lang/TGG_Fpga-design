@@ -1,0 +1,687 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Oct 25 16:58:32 2026
+# Process ID         : 37592
+# Current directory  : C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1
+# Command line       : vivado.exe -log tgg_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tgg_design_wrapper.tcl
+# Log file           : C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/tgg_design_wrapper.vds
+# Journal file       : C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-BBD
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 16296 MB
+# Swap memory        : 12590 MB
+# Total Virtual      : 28886 MB
+# Available Virtual  : 2350 MB
+#-----------------------------------------------------------
+source tgg_design_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/AMDdesigntools/2025.2/Vivado/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/utils_1/imports/synth_1/tgg_design_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.srcs/utils_1/imports/synth_1/tgg_design_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top tgg_design_wrapper -part xc7z020clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 31472
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1384.738 ; gain = 541.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'tgg_design_wrapper' [C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/hdl/tgg_design_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'tgg_design' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:489]
+INFO: [Synth 8-6157] synthesizing module 'tgg_design_axi_bus_0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:877]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_9E8R60' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_9E8R60' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:13]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_J2KEZ2' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:128]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_J2KEZ2' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:128]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_IR9361' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:243]
+INFO: [Synth 8-6157] synthesizing module 'tgg_design_axi_bus_imp_auto_pc_0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_auto_pc_0/synth/tgg_design_axi_bus_imp_auto_pc_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_axi_protocol_converter' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:5285]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4704]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_aw_channel' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4360]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_cmd_translator' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3720]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_incr_cmd' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3216]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_incr_cmd' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3216]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_wrap_cmd' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_wrap_cmd' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_cmd_translator' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3720]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_wr_cmd_fsm' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3392]
+INFO: [Synth 8-226] default block is never used [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3446]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_wr_cmd_fsm' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3392]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_aw_channel' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4360]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_b_channel' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3906]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_simple_fifo' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2852]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_simple_fifo' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2852]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_simple_fifo__parameterized0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2852]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_simple_fifo__parameterized0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2852]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_b_channel' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3906]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_ar_channel' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4516]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_rd_cmd_fsm' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3546]
+INFO: [Synth 8-226] default block is never used [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3608]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_rd_cmd_fsm' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3546]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_ar_channel' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4516]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_r_channel' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4155]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_simple_fifo__parameterized1' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2852]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_simple_fifo__parameterized1' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2852]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_37_b2s_simple_fifo__parameterized2' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2852]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_simple_fifo__parameterized2' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2852]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s_r_channel' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4155]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axi_register_slice' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized1' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized1' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized2' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized2' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axi_register_slice' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_36_axi_register_slice' is unconnected for instance 'SI_REG' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-7023] instance 'SI_REG' of module 'axi_register_slice_v2_1_36_axi_register_slice' has 93 connections declared, but only 92 given [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axi_register_slice__parameterized0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized3' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized3' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized4' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized4' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized5' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized5' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized6' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized6' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axi_register_slice__parameterized0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_36_axi_register_slice' is unconnected for instance 'MI_REG' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:5126]
+INFO: [Synth 8-7023] instance 'MI_REG' of module 'axi_register_slice_v2_1_36_axi_register_slice' has 93 connections declared, but only 92 given [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:5126]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_b2s' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4704]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_37_axi_protocol_converter' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:5285]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_design_axi_bus_imp_auto_pc_0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_auto_pc_0/synth/tgg_design_axi_bus_imp_auto_pc_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_IR9361' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:243]
+INFO: [Synth 8-6157] synthesizing module 'tgg_design_axi_bus_imp_xbar_0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/synth/tgg_design_axi_bus_imp_xbar_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_38_axi_crossbar' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_38_crossbar_sasd' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:1234]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_38_addr_decoder' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_carry_and' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_carry_and' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_38_addr_decoder' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_38_decerr_slave' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:3493]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_38_decerr_slave' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:3493]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_38_addr_arbiter_sasd' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_38_addr_arbiter_sasd' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_38_splitter' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_38_splitter' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_38_splitter__parameterized0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_38_splitter__parameterized0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized1' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized1' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized7' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_36_axic_register_slice__parameterized7' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized2' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized2' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_38_crossbar_sasd' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:1234]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_38_axi_crossbar' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_design_axi_bus_imp_xbar_0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_axi_bus_imp_xbar_0/synth/tgg_design_axi_bus_imp_xbar_0.v:53]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'tgg_design_axi_bus_imp_xbar_0' is unconnected for instance 'xbar' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:1313]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'tgg_design_axi_bus_imp_xbar_0' is unconnected for instance 'xbar' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:1313]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'tgg_design_axi_bus_imp_xbar_0' has 40 connections declared, but only 38 given [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:1313]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_design_axi_bus_0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:877]
+INFO: [Synth 8-6157] synthesizing module 'tgg_design_lcd_clock_0_0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_lcd_clock_0_0/synth/tgg_design_lcd_clock_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'tgg_lcd_clock' [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_lcd_clock.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_BASE' [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:95964]
+	Parameter CLKFBOUT_MULT_F bound to: 8.000000e+00 - type: double 
+	Parameter CLKIN1_PERIOD bound to: 1.000000e+01 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 2.500000e+01 - type: double 
+	Parameter CLKOUT1_DIVIDE bound to: 16 - type: integer 
+	Parameter CLKOUT2_DIVIDE bound to: 32 - type: integer 
+	Parameter CLKOUT3_DIVIDE bound to: 64 - type: integer 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_BASE' (0#1) [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:95964]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6157] synthesizing module 'BUFGMUX' [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2779]
+INFO: [Synth 8-6155] done synthesizing module 'BUFGMUX' (0#1) [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2779]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_lcd_clock' (0#1) [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_lcd_clock.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_design_lcd_clock_0_0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_lcd_clock_0_0/synth/tgg_design_lcd_clock_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'tgg_design_ps7_0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
+INFO: [Synth 8-6157] synthesizing module 'BIBUF' [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2325]
+INFO: [Synth 8-6155] done synthesizing module 'BIBUF' (0#1) [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2325]
+INFO: [Synth 8-6157] synthesizing module 'PS7' [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:140294]
+INFO: [Synth 8-6155] done synthesizing module 'PS7' (0#1) [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:140294]
+INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
+INFO: [Synth 8-7071] port 'M_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'M_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'S_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'S_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'S_AXI_ACP_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'S_AXI_HP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'S_AXI_HP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'S_AXI_HP2_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'S_AXI_HP3_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'DMA0_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'DMA1_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'DMA2_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7071] port 'DMA3_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-7023] instance 'inst' of module 'processing_system7_v5_5_processing_system7' has 685 connections declared, but only 672 given [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:320]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_design_ps7_0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/synth/tgg_design_ps7_0.v:53]
+INFO: [Synth 8-638] synthesizing module 'tgg_design_rst100_0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_rst100_0/synth/tgg_design_rst100_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1243' bound to instance 'U0' of component 'proc_sys_reset' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_rst100_0/synth/tgg_design_rst100_0.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1371]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1387]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1413]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1436]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1460]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-3491] module 'SRL16' declared at 'D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165318' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:873]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165318]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (0#1) [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165318]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'D:/AMDdesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_EXT' of component 'xpm_cdc_single' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:968]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [D:/AMDdesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (0#1) [D:/AMDdesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'D:/AMDdesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_AUX' of component 'xpm_cdc_single' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1015]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+INFO: [Synth 8-256] done synthesizing module 'tgg_design_rst100_0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_rst100_0/synth/tgg_design_rst100_0.vhd:74]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'tgg_design_rst100_0' is unconnected for instance 'rst100' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:814]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'tgg_design_rst100_0' is unconnected for instance 'rst100' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:814]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'tgg_design_rst100_0' is unconnected for instance 'rst100' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:814]
+WARNING: [Synth 8-7023] instance 'rst100' of module 'tgg_design_rst100_0' has 10 connections declared, but only 7 given [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:814]
+INFO: [Synth 8-6157] synthesizing module 'tgg_design_tgg_capture_0_0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_tgg_capture_0_0/synth/tgg_design_tgg_capture_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'tgg_system_top' [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_system_top.v:17]
+	Parameter CLK_HZ bound to: 32'b00000101111101011110000100000000 
+	Parameter FS_HZ bound to: 32'b00000000000000000010011100010000 
+	Parameter N bound to: 32'b00000000000000000001000000000000 
+	Parameter AXI_AW bound to: 32'b00000000000000000000000000010000 
+INFO: [Synth 8-6157] synthesizing module 'tgg_sample_tick' [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_sample_tick.v:14]
+	Parameter CLK_HZ bound to: 32'b00000101111101011110000100000000 
+	Parameter SAMPLE_HZ bound to: 32'b00000000000000000010011100010000 
+INFO: [Synth 8-6155] done synthesizing module 'tgg_sample_tick' (0#1) [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_sample_tick.v:14]
+INFO: [Synth 8-6157] synthesizing module 'tgg_xadc' [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_xadc.v:21]
+INFO: [Synth 8-6157] synthesizing module 'XADC' [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:171125]
+	Parameter INIT_40 bound to: 16'b0000001100000011 
+	Parameter INIT_41 bound to: 16'b0011000111110000 
+	Parameter INIT_42 bound to: 16'b0000010000000000 
+	Parameter INIT_43 bound to: 16'b0000000000000000 
+	Parameter INIT_44 bound to: 16'b0000000000000000 
+	Parameter INIT_45 bound to: 16'b0000000000000000 
+	Parameter INIT_46 bound to: 16'b0000000000000000 
+	Parameter INIT_47 bound to: 16'b0000000000000000 
+	Parameter INIT_48 bound to: 16'b0000000000000000 
+	Parameter INIT_49 bound to: 16'b0000000000000000 
+	Parameter INIT_4A bound to: 16'b0000000000000000 
+	Parameter INIT_4B bound to: 16'b0000000000000000 
+	Parameter INIT_4C bound to: 16'b0000000000000000 
+	Parameter INIT_4D bound to: 16'b0000000000000000 
+	Parameter INIT_4E bound to: 16'b0000000000000000 
+	Parameter INIT_4F bound to: 16'b0000000000000000 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'XADC' (0#1) [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:171125]
+WARNING: [Synth 8-7071] port 'MUXADDR' of module 'XADC' is unconnected for instance 'i_xadc' [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_xadc.v:116]
+WARNING: [Synth 8-7023] instance 'i_xadc' of module 'XADC' has 24 connections declared, but only 23 given [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_xadc.v:116]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_xadc' (0#1) [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_xadc.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_system_top' (0#1) [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_system_top.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_design_tgg_capture_0_0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_tgg_capture_0_0/synth/tgg_design_tgg_capture_0_0.v:53]
+WARNING: [Synth 8-7071] port 'irq_frame' of module 'tgg_design_tgg_capture_0_0' is unconnected for instance 'tgg_capture_0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:822]
+WARNING: [Synth 8-7071] port 'convst_dbg' of module 'tgg_design_tgg_capture_0_0' is unconnected for instance 'tgg_capture_0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:822]
+WARNING: [Synth 8-7023] instance 'tgg_capture_0' of module 'tgg_design_tgg_capture_0_0' has 23 connections declared, but only 21 given [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:822]
+INFO: [Synth 8-6157] synthesizing module 'tgg_design_tgg_lcd_0_0' [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_tgg_lcd_0_0/synth/tgg_design_tgg_lcd_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'tgg_lcd_axi' [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_lcd_axi.v:3]
+	Parameter AUTO_PANEL bound to: 1 - type: integer 
+	Parameter LCD_RESET_CYCLES bound to: 20000000 - type: integer 
+	Parameter LCD_READY_CYCLES bound to: 32000000 - type: integer 
+	Parameter H_SYNC bound to: 128 - type: integer 
+	Parameter H_BACK bound to: 88 - type: integer 
+	Parameter H_DISP bound to: 800 - type: integer 
+	Parameter H_FRONT bound to: 40 - type: integer 
+	Parameter V_SYNC bound to: 2 - type: integer 
+	Parameter V_BACK bound to: 33 - type: integer 
+	Parameter V_DISP bound to: 480 - type: integer 
+	Parameter V_FRONT bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:87566]
+	Parameter DRIVE bound to: 8 - type: integer 
+	Parameter IOSTANDARD bound to: LVCMOS33 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:87566]
+INFO: [Synth 8-6157] synthesizing module 'tgg_lcd_font' [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_lcd_font.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_lcd_font' (0#1) [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_lcd_font.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:117225]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (0#1) [D:/AMDdesigntools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:117225]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_lcd_axi' (0#1) [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_lcd_axi.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_design_tgg_lcd_0_0' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_tgg_lcd_0_0/synth/tgg_design_tgg_lcd_0_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_design' (0#1) [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/synth/tgg_design.v:489]
+INFO: [Synth 8-6155] done synthesizing module 'tgg_design_wrapper' (0#1) [C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/hdl/tgg_design_wrapper.v:13]
+INFO: [Synth 8-6014] Unused sequential element state_r1_reg was removed.  [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3596]
+INFO: [Synth 8-6014] Unused sequential element s_arlen_r_reg was removed.  [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/d98a/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3597]
+INFO: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_aw_trans_seq_i_reg was removed.  [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:2051]
+INFO: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_ar_trans_seq_i_reg was removed.  [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:2062]
+INFO: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_w_beat_cnt_i_reg was removed.  [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:2073]
+INFO: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_r_beat_cnt_i_reg was removed.  [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/f084/hdl/axi_crossbar_v2_1_vl_rfs.v:2086]
+WARNING: [Synth 8-6014] Unused sequential element capture_logic.ready_next_reg was removed.  [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_system_top.v:229]
+WARNING: [Synth 8-7129] Port src_clk in module xpm_cdc_single is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_COL in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_CRS in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_RX_DV in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_RX_ER in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_RXD[7] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_RXD[6] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_RXD[5] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_RXD[4] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_RXD[3] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_RXD[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_RXD[1] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET0_GMII_RXD[0] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_COL in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_CRS in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_RX_DV in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_RX_ER in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[7] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[6] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[5] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[4] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[3] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[1] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[0] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_GP0_ARSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_GP0_AWSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_GP1_ARSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_GP1_AWSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ACP_ARSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ACP_AWSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_HP0_ARSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_HP0_AWSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_HP1_ARSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_HP1_AWSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_HP2_ARSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_HP2_AWSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_HP3_ARSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_HP3_AWSIZE[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCLK_CLKTRIG3_N in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCLK_CLKTRIG2_N in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCLK_CLKTRIG1_N in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCLK_CLKTRIG0_N in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[31] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[30] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[29] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[28] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[27] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[26] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[25] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[24] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[23] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[22] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[21] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[20] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[19] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[18] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[17] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[16] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[15] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[14] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[13] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[12] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[11] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[10] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[9] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[8] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[7] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[6] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[5] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[4] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[3] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[1] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_DATA[0] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_VALID in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_ATID[3] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_ATID[2] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_ATID[1] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FTMD_TRACEIN_ATID[0] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S[0] in module generic_baseblocks_v2_1_2_mux_enc__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WLAST in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARID[0] in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[7] in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[6] in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[5] in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[4] in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[3] in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[2] in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[1] in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[0] in module axi_crossbar_v2_1_38_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[1] in module axi_crossbar_v2_1_38_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[0] in module axi_crossbar_v2_1_38_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module axi_crossbar_v2_1_38_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARID[0] in module axi_crossbar_v2_1_38_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_BID[1] in module axi_crossbar_v2_1_38_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_BID[0] in module axi_crossbar_v2_1_38_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_RID[1] in module axi_crossbar_v2_1_38_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_RID[0] in module axi_crossbar_v2_1_38_crossbar_sasd is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1675.043 ; gain = 831.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1675.043 ; gain = 831.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1675.043 ; gain = 831.941
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1675.043 ; gain = 0.000
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'tgg_design_i/tgg_capture_0/inst/i_adc/i_xadc' of type 'XADC' is '7SERIES'; it is being changed to match the current FPGA architecture, 'ZYNQ'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
+INFO: [Netlist 29-17] Analyzing 31 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/tgg_design_ps7_0.xdc] for cell 'tgg_design_i/ps7/inst'
+Finished Parsing XDC File [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/tgg_design_ps7_0.xdc] for cell 'tgg_design_i/ps7/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_ps7_0/tgg_design_ps7_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tgg_design_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tgg_design_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_rst100_0/tgg_design_rst100_0_board.xdc] for cell 'tgg_design_i/rst100/U0'
+Finished Parsing XDC File [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ip/tgg_design_rst100_0/tgg_design_rst100_0_board.xdc] for cell 'tgg_design_i/rst100/U0'
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Users/djw/Desktop/TGG/FPGA/FPGA/constraints/linghangz_7020_lcd.xdc]
+Finished Parsing XDC File [C:/Users/djw/Desktop/TGG/FPGA/FPGA/constraints/linghangz_7020_lcd.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/djw/Desktop/TGG/FPGA/FPGA/constraints/linghangz_7020_lcd.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tgg_design_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tgg_design_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tgg_design_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tgg_design_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/djw/Desktop/TGG/FPGA/FPGA/constraints/linghangz_lcd_timing.xdc]
+Finished Parsing XDC File [C:/Users/djw/Desktop/TGG/FPGA/FPGA/constraints/linghangz_lcd_timing.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/AMDdesigntools/2025.2/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tgg_design_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tgg_design_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 2 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1675.043 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 29 instances were transformed.
+  BUFGMUX => BUFGCTRL (inverted pins: CE0): 3 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 24 instances
+  MMCME2_BASE => MMCME2_ADV: 1 instance 
+  SRL16 => SRL16E: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1675.043 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1675.043 ; gain = 831.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1675.043 ; gain = 831.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1675.043 ; gain = 831.941
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_protocol_converter_v2_1_37_b2s_wr_cmd_fsm'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_protocol_converter_v2_1_37_b2s_rd_cmd_fsm'
+WARNING: [Synth 8-3936] Found unconnected internal register 'wdata_hold_reg' and it is trimmed from '32' to '2' bits. [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_system_top.v:125]
+WARNING: [Synth 8-3936] Found unconnected internal register 'wstrb_hold_reg' and it is trimmed from '4' to '1' bits. [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_system_top.v:124]
+WARNING: [Synth 8-3936] Found unconnected internal register 'wd_reg' and it is trimmed from '32' to '8' bits. [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_lcd_axi.v:92]
+WARNING: [Synth 8-3936] Found unconnected internal register 'ws_reg' and it is trimmed from '4' to '1' bits. [C:/Users/djw/Desktop/TGG/FPGA/FPGA/rtl/tgg_lcd_axi.v:92]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 SM_IDLE |                               01 |                               00
+               SM_CMD_EN |                               11 |                               01
+         SM_CMD_ACCEPTED |                               10 |                               10
+            SM_DONE_WAIT |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'axi_protocol_converter_v2_1_37_b2s_wr_cmd_fsm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 SM_IDLE |                               01 |                               00
+               SM_CMD_EN |                               11 |                               01
+         SM_CMD_ACCEPTED |                               10 |                               10
+                 SM_DONE |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'axi_protocol_converter_v2_1_37_b2s_rd_cmd_fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1675.043 ; gain = 831.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw.aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1726]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar.ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1726]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.gen/sources_1/bd/tgg_design/ipshared/bc4b/hdl/axi_register_slice_v2_1_vl_rfs.v:1726]
+WARNING: [Synth 8-6849] Infeasible attribute ram_style = "block" set for RAM "tgg_design_i/tgg_capture_0/inst/mem_reg",trying to implement using LUTRAM
+WARNING: [Synth 8-6849] Infeasible attribute ram_style = "block" set for RAM "tgg_design_i/tgg_capture_0/inst/mem_reg",trying to implement using LUTRAM
+WARNING: [Synth 8-6849] Infeasible attribute ram_style = "block" set for RAM "tgg_design_i/tgg_capture_0/inst/mem_reg",trying to implement using LUTRAM
+WARNING: [Synth 8-6849] Infeasible attribute ram_style = "block" set for RAM "tgg_design_i/tgg_capture_0/inst/mem_reg",trying to implement using LUTRAM
+WARNING: [Synth 8-3332] Sequential element (FDRE_inst) is unused and will be removed from module proc_sys_reset.
+WARNING: [Synth 8-3332] Sequential element (BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module proc_sys_reset.
+WARNING: [Synth 8-3332] Sequential element (PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module proc_sys_reset.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1675.043 ; gain = 831.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3321] set_false_path : Empty to list for constraint at line 16 of C:/Users/djw/Desktop/TGG/FPGA/FPGA/constraints/linghangz_lcd_timing.xdc. [C:/Users/djw/Desktop/TGG/FPGA/FPGA/constraints/linghangz_lcd_timing.xdc:16]
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1892.348 ; gain = 1049.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1920.547 ; gain = 1077.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance tgg_design_i/tgg_lcd_0/inst/spectrum_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance tgg_design_i/tgg_lcd_0/inst/trace1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance tgg_design_i/tgg_lcd_0/inst/trace0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance tgg_design_i/tgg_lcd_0/inst/chars_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1947.520 ; gain = 1104.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2170.238 ; gain = 1327.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2170.238 ; gain = 1327.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 2170.238 ; gain = 1327.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 2170.238 ; gain = 1327.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 2170.238 ; gain = 1327.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 2170.238 ; gain = 1327.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BIBUF       |   130|
+|2     |BUFG        |     2|
+|3     |BUFGMUX     |     3|
+|4     |CARRY4      |   177|
+|5     |LUT1        |   102|
+|6     |LUT2        |   260|
+|7     |LUT3        |   375|
+|8     |LUT4        |   288|
+|9     |LUT5        |   255|
+|10    |LUT6        |  1058|
+|11    |MMCME2_BASE |     1|
+|12    |MUXF7       |   216|
+|13    |MUXF8       |   100|
+|14    |ODDR        |     1|
+|15    |PS7         |     1|
+|16    |RAM64M      |   512|
+|17    |RAMB18E1    |     3|
+|18    |RAMB36E1    |     1|
+|19    |SRL16       |     1|
+|20    |SRL16E      |    18|
+|21    |SRLC32E     |    47|
+|22    |XADC        |     1|
+|23    |FDCE        |    59|
+|24    |FDRE        |   872|
+|25    |FDSE        |    21|
+|26    |IOBUF       |    24|
+|27    |OBUF        |     6|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 2170.238 ; gain = 1327.137
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 189 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2170.238 ; gain = 1327.137
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 2170.238 ; gain = 1327.137
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 2175.367 ; gain = 0.000
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'tgg_design_i/tgg_capture_0/inst/i_adc/i_xadc' of type 'XADC' is '7SERIES'; it is being changed to match the current FPGA architecture, 'ZYNQ'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
+INFO: [Netlist 29-17] Analyzing 1040 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 2 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2183.059 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 541 instances were transformed.
+  BUFGMUX => BUFGCTRL (inverted pins: CE0): 3 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 24 instances
+  MMCME2_BASE => MMCME2_ADV: 1 instance 
+  RAM64M => RAM64M (RAMD64E(x4)): 512 instances
+  SRL16 => SRL16E: 1 instance 
+
+Synth Design complete | Checksum: 678c1d7c
+INFO: [Common 17-83] Releasing license: Synthesis
+235 Infos, 127 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 2183.059 ; gain = 1575.094
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2183.059 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/djw/Desktop/TGG/FPGA/FPGA/project_lcd_7020_ddr/tgg_lcd_7020.runs/synth_1/tgg_design_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file tgg_design_wrapper_utilization_synth.rpt -pb tgg_design_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 25 16:59:21 2026...
